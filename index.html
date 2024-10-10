@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Verdenshav  -  Forsiden</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        body{
+            background-image: url(images/Bakgrunnsbilde.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+
+        #toppfelt{
+            width: 100vw; /*vw = viewport width dvs. 100vw = 100% av sidebredden*/
+            height: 120px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .toppdiver{
+            height: 100%;
+            min-width: 150px;
+        }
+
+        #vtf{
+            flex-grow: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #mtf{
+            flex-grow: 8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #htf{
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .toppdiver p{
+            font-family: Arial Rounded MT Bold;
+            font-size: xx-large;
+            color: black;
+        }
+
+
+        #linkefelt{
+            width: 100vw;
+            height: 40px;
+            background-color: rgb(179, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .linkdiver{
+            font-family: Arial;
+            font-size: large;
+            color: black;
+        }
+
+        .linkdiver a{
+            color: black;
+            text-decoration: none;
+        }
+
+        .linkdiver a:hover{
+            text-decoration: underline;
+            font-size: x-large;
+        }
+
+        #vlf{
+            flex-grow: 2;
+            display: flex;
+            justify-content: center;
+        }
+
+        #mlf{
+            flex-grow: 6;
+            display: flex;
+            justify-content: center;
+        }
+
+        #hlf{
+            flex-grow: 2;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        #hovedfelt{
+            margin: auto;
+            width: 70vw;
+            height: 60vh;
+            background-color: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #hovedfelt2{
+            margin: auto;
+            width: 46.6vw;
+            height: 60vh;
+            background-color: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .hoveddiver{
+            width: 25%;
+            height: 80%;
+            background-color: rgb(179, 255, 255);
+            /*border: 1px solid black;*/
+            border-radius: 20px;
+            /*box-shadow: 10px 10px 20px gray;*/
+            padding: 20px;
+        }
+
+        .hoveddiver2{
+            width: 37.5%;
+            height: 80%;
+            background-color: rgb(179, 255, 255);
+            /*border: 1px solid black;*/
+            border-radius: 20px;
+            /*box-shadow: 10px 10px 20px gray;*/
+            padding: 20px;
+        }
+
+        .hoveddiver h1{
+            font-family: Arial;
+            font-size: x-large;
+            color: black;
+            text-align: center;
+        }
+
+        .hoveddiver2 h1{
+            font-family: Arial;
+            font-size: x-large;
+            color: black;
+            text-align: center;
+        }
+
+/*.hoveddiver p{
+            font-family: Arial;
+            font-size: large;
+            color: black;
+        }*/
+
+        .hoveddiver a{
+            font-family: Arial;
+            font-size: small;
+            color: black;
+            text-decoration: none;
+        }
+
+        .hoveddiver2 a{
+            font-family: Arial;
+            font-size: small;
+            color: black;
+            text-decoration: none;
+        }
+
+        #vhf{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #mhf{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #hhf{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #vnhf{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #hnhf{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="toppfelt">
+
+        <div class="toppdiver" id="vtf"> 
+            <img src="images/Logo.png" alt="" width="188px">
+        </div>
+
+        <div class="toppdiver" id="mtf">
+            <p>Alle verdens hav</p>
+
+        </div>
+
+        <div class="toppdiver" id="htf">
+            <p>&#9776;</p>
+        </div>
+
+    </div>
+
+
+    <div id="linkefelt">
+        <div class="linkdiver" id="vlf">
+            <a href="Omoss.html">Om oss</a>
+        </div>
+
+        <div class="linkdiver" id="mlf"></div>
+        <div class="linkdiver" id="hlf"></div>
+    </div>
+
+
+    <div id="hovedfelt">
+        <div class="hoveddiver" id="vhf">
+            <div>
+                <h1>Stillehavet</h1>
+            </div>
+
+            <div>
+                <a href="Parallax.html"><img src="images/Stillehavet.png" width="100%"></a>
+            </div>
+        </div>
+
+
+        <div class="hoveddiver" id="mhf">
+            <div>
+                <h1>Atlanterhavet</h1>
+            </div>
+
+            <div>
+                <a href="Atlanterhavet.html"><img src="images/Atlanterhavet.png" width="100%"></a>
+            </div>
+        </div>
+
+
+        <div class="hoveddiver" id="hhf">
+            <div>
+                <h1>Indiahavet</h1>
+            </div>
+
+            <div>
+                <a href="Indiahavet.html"><img src="images/Indiahavet.png" width="100%"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="hovedfelt2">
+        <div class="hoveddiver2" id="vnhf">
+            <div>
+                <h1>Nordishavet</h1>
+            </div>
+
+            <div>
+                <a href="Nordishavet.html"><img src="images/Nordishavet.png" width="100%"></a>
+            </div>
+        </div>
+
+        <div class="hoveddiver2" id="hnhf">
+            <div>
+                <h1>Sørishavet</h1>
+            </div>
+
+            <div>
+                <a href="Sørishavet.html"><img src="images/Sørishavet.png" width="100%"></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+</html>
